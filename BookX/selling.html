@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookX-selling</title>
+    <link rel="icon" type="image/x-icon" href="photos/logo/logo-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <nav class="navigation">
+                <a href="index.html"><label class="logo">BookX</label></a>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="selling.html" id="page-curent">Payment</a></li>
+                </ul>
+                <a href="login.html" class="login">logn in</a>
+            </nav>
+        </div>
+    </header>
+<div class="row">
+        <div class="col-75">
+          <div class="container">
+            <form action="index.html">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>Billing Address</h3>
+                  <label for="fname"> Full Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="email" placeholder="john@example.com">
+                  <label for="adr"> Address</label>
+                  <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="city" placeholder="New York">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">State</label>
+                      <input type="text" id="state" name="state" placeholder="NY">
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Zip</label>
+                      <input type="text" id="zip" name="zip" placeholder="10001">
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Payment</h3>
+                  <label for="fname">Accepted Cards</label>
+                  <div class="icon-container">
+                    <a href="https://ma.visamiddleeast.com/fr_MA/pay-with-visa/find-a-card/debit-cards.html"><img src="photos/visa.png" alt="visa card" class="fa fa-cc-visa"></a>
+                    <a href="https://www.mastercard.fr/fr-fr.html"><img src="photos/mastercard.jpg" alt="mastercard" class="fa fa-cc-mastercard"></a>
+                    <a href="https://www.paypal.com/fr/webapps/mpp/home"><img src="photos/paypal.png" alt="paypal" class="fa fa-cc-paypal"></a>
+                  </div>
+                  <label for="cname">Name on Card</label>
+                  <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                  <label for="ccnum">Credit card number</label>
+                  <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                  <label for="expmonth">Exp Month</label>
+                  <input type="text" id="expmonth" name="expmonth" placeholder="September">
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="expyear">Exp Year</label>
+                      <input type="text" id="expyear" name="expyear" placeholder="2018">
+                    </div>
+                    <div class="col-50">
+                      <label for="cvv">CVV</label>
+                      <input type="text" id="cvv" name="cvv" placeholder="352">
+                    </div>
+                  </div>
+                </div>
+      
+              </div>
+              <label>
+                <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+              </label>
+              <input type="submit" value="Continue to checkout" class="btn">
+            </form>
+          </div>
+        </div>
+</div>
+<footer class="footer">
+    <div class="footer-element">
+        <h2 class="h2-footer">who are we</h2>
+        <p>BookX This site is dedicated to selling books and motivating Tunisians
+            To read and this site is made by programmer Yassin Mami, who is 16 years old
+        </p>
+    </div>
+
+    <div class="footer-element">
+        <h2 class="contact-title">Our pages</h2>
+        <ul class="our-pages">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="selling.html">Payment</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-element">
+        <h2 class="join-title">Join us</h2>
+        <p>
+            Rue Arbi Zarrouk, immeuble Yassamine, 1er étage 8000 Nabeul, Tunisie
+        </p>
+    </div>
+    
+    <div class="reseau-social">
+      <div class="center-rs">
+          <a href="https://www.facebook.com/houssine.mami.16/"><span class="comunity facebook"></span></a>
+          <a href="https://www.instagram.com/yassine_sama2008/"><span class="comunity instagram"></span></a>
+          <a href="https://discord.com/channels/722556341738012733/854034636040831016"><span class="comunity discord"></span></a>
+      </div>
+    </div>
+
+    <div class="copyright">
+        <hr>
+        <p>
+            Copyright &copy; By Yassine Mami
+        </p>
+    </div>
+
+</footer>
+
+    
+</body>
+</html>
