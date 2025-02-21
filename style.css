@@ -186,19 +186,19 @@ nav ul li a:hover {
     margin-bottom: 20px;
     color: #ff5733;
 }
-#contact-form {
+#contactForm {
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
-#contact-form input, #contact-form textarea {
+#contactForm input, #contactForm textarea {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
 }
-#contact-form button {
+#contactForm button {
     background: #ff5733;
     color: white;
     padding: 10px;
@@ -208,8 +208,12 @@ nav ul li a:hover {
     cursor: pointer;
     transition: background 0.3s;
 }
-#contact-form button:hover {
+#contactForm button:hover {
     background: #ffcc00;
+}
+#responseMessage {
+    margin-top: 10px;
+    color: green;
 }
 footer {
     background: #1f1f1f;
@@ -257,6 +261,12 @@ footer {
     from { opacity: 0; transform: translateX(-100px); }
     to { opacity: 1; transform: translateX(0); }
 }
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px); }
